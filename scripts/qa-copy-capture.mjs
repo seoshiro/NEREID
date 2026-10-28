@@ -1,0 +1,11 @@
+import {pathToFileURL} from 'node:url';
+import {writeFileSync} from 'node:fs';
+const {chromium}=await import(pathToFileURL(process.argv[2]).href);
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});
+await page.goto('http://127.0.0.1:4173/',{waitUntil:'networkidle'});
+await page.evaluate(async()=>{await document.fonts.ready;document.querySelectorAll('details').forEach(d=>d.open=true);document.querySelector('#journal').focus();document.querySelector('#journal').scrollIntoView({block:'start',behavior:'instant'})});
+const state=await page.evaluate(()=>{const skip=document.querySelector('.skip');return {active:document.activeElement.id,skipFocused:skip===document.activeElement,skipTransform:getComputedStyle(skip).transform,skipRect:skip.getBoundingClientRect().toJSON(),journalRect:document.querySelector('#journal').getBoundingClientRect().toJSON(),scrollY,viewportHeight:innerHeight}});
+await page.screenshot({path:'qa/copy/journal-phone-viewport.png'});
+writeFileSync('qa/copy/capture-state.json',JSON.stringify(state,null,2));console.log(state);
+await browser.close();

@@ -1,0 +1,11 @@
+{
+  "unchangedFileCount": 11,
+  "baseline": "5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f",
+  "mediaUnchanged": true,
+  "changed": [
+    "app.js",
+    "index.html",
+    "styles.css"
+  ],
+  "candidate": "0d2ea1daecd20544d60271af8081ada1bc5eb213ff9a62057b37b47369079116"
+}

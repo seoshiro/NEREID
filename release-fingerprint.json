@@ -1,11 +1,11 @@
 {
-  "fingerprint": "5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f",
+  "fingerprint": "0d2ea1daecd20544d60271af8081ada1bc5eb213ff9a62057b37b47369079116",
   "algorithm": "SHA256 of sorted path NUL file-SHA256 LF records",
   "files": [
     {
       "file": "app.js",
-      "bytes": 15945,
-      "sha256": "a9ee7202503f7fe4518b374c8b64acb8313274d0815f4e871a1d69a84e8d2228"
+      "bytes": 15949,
+      "sha256": "8773a8336ac977a693159d4f03750fc25f699a3b4810711a5920d357e4cb47c9"
     },
     {
       "file": "assets/favicon.svg",
@@ -64,13 +64,13 @@
     },
     {
       "file": "index.html",
-      "bytes": 10480,
-      "sha256": "61221304d3576bd7e0da9b6fecd969542e3ad259368e13a07f5e0d914c4378e2"
+      "bytes": 9819,
+      "sha256": "39be920c6d15667ca5096de42b2cf9db9c44dcabd1cd10cf4deb39bc8c748cf8"
     },
     {
       "file": "styles.css",
-      "bytes": 24281,
-      "sha256": "092bdb5e40fbbaef34115c72e11c3e21c711ca93a09819298727f9f4f54b0272"
+      "bytes": 24258,
+      "sha256": "682a7260f60aaf420e7ace77ed1976b8508358b4078a676180954539a5dba404"
     }
   ]
 }

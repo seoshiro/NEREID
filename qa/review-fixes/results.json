@@ -1,5 +1,5 @@
 {
-  "recordedAt": "2026-10-28T11:28:22.984Z",
+  "recordedAt": "2026-10-28T13:06:43.818Z",
   "browser": "Installed Chrome, simulated CSS viewports",
   "results": [
     {
@@ -67,8 +67,8 @@
             "7.95 s"
           ],
           "loop": {
-            "maxTime": 7.991203,
-            "wrapTo": 0.000121
+            "maxTime": 7.980855,
+            "wrapTo": 0.000117
           }
         },
         {
@@ -94,8 +94,8 @@
             "7.95 s"
           ],
           "loop": {
-            "maxTime": 7.961497,
-            "wrapTo": 0.000125
+            "maxTime": 7.968821,
+            "wrapTo": 0.000106
           }
         }
       ]

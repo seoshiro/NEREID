@@ -1,8 +1,8 @@
 const ORDER = ['manta', 'orca', 'medusa'];
 const SPECIES = {
-  manta: { name:'MANTA', title:'Manta', latin:'Mobula birostris', headline:'The art of\nmoving slowly.', lede:"Meet the silent giants of the deep. Discover the extraordinary lives\nhidden beneath the ocean's surface.", story:'With wing-like fins, giant manta rays move through tropical and subtropical waters. They filter plankton from the water, turning tiny organisms into the energy that sustains an ocean giant.', facts:[['Family','Mobulidae'],['Diet','Plankton'],['World','Tropical & subtropical seas']], source:'https://www.fisheries.noaa.gov/species/giant-manta-ray', alt:'A giant manta ray gliding through dark blue ocean water.' },
-  orca: { name:'ORCA', title:'Orca', latin:'Orcinus orca', headline:'Intelligence,\nin the wild.', lede:"Discover the intelligence and power of one of the ocean's\nmost extraordinary predators.", story:'Orcas navigate their world through sound. These highly social dolphins use calls to communicate and echolocation to find prey. In close family groups, knowledge and hunting traditions travel from one generation to the next.', facts:[['Family','Delphinidae'],['Diet','Varies between populations'],['World','Oceans worldwide']], source:'https://www.fisheries.noaa.gov/species/killer-whale', alt:'A single orca swimming through deep, cold blue water.' },
-  medusa: { name:'MEDUSA', title:'Medusa', latin:'A study of jellyfish', headline:'A different\nkind of light.', lede:'Enter the mesmerizing world of translucent forms,\ngentle movement and living light.', story:'A pulsing bell, trailing tentacles, a body shaped by water. Some jellyfish produce light through bioluminescence. Medusa is our artistic portrait of this extraordinary world, rather than an illustration of one identified species.', facts:[['Form','Free-swimming medusa'],['Movement','Pulses & ocean currents'],['Light','Bioluminescence in some species']], source:'https://oceanexplorer.noaa.gov/facts/bioluminescence.html', alt:'A translucent jellyfish with delicate trailing tentacles in the dark ocean.' }
+  manta: { name:'MANTA', title:'Manta', latin:'Mobula birostris', headline:'Giant\nmanta rays', lede:'Giant manta rays glide through the ocean,\nfiltering plankton from the water.', cta:'About manta rays', story:'Giant manta rays use broad, wing-like fins to move through tropical and subtropical seas. They filter plankton from the water.', facts:[['Family','Mobulidae'],['Diet','Plankton'],['Range','Tropical to temperate seas']], source:'https://www.fisheries.noaa.gov/species/giant-manta-ray', sourceLabel:'Manta ray facts from NOAA', alt:'A giant manta ray gliding through dark blue ocean water.' },
+  orca: { name:'ORCA', title:'Orca', latin:'Orcinus orca', headline:'Life in\nfamily groups', lede:'Orcas use calls to communicate and echolocation to find prey.\nHunting traditions pass between generations.', cta:'About orcas', story:'Orcas are highly social dolphins. They use calls to communicate and echolocation to find prey. Family groups pass hunting behaviours between generations.', facts:[['Family','Delphinidae'],['Diet','Varies by population'],['Range','Oceans worldwide']], source:'https://www.fisheries.noaa.gov/species/killer-whale', sourceLabel:'Orca facts from NOAA', alt:'A single orca swimming through deep, cold blue water.' },
+  medusa: { name:'MEDUSA', title:'Medusa', latin:'A study of jellyfish', headline:'How jellyfish\nmove', lede:'Jellyfish swim by pulsing their bells\nand drift with the currents.', cta:'About jellyfish', story:'Jellyfish move by pulsing their bells and drifting with ocean currents. Some species produce their own light. Medusa is an artistic portrait of a jellyfish, not a depiction of an identified species.', facts:[['Form','Free-swimming medusa'],['Movement','Bell pulses and currents'],['Light','Bioluminescence in some species']], source:'https://oceanexplorer.noaa.gov/facts/bioluminescence.html', sourceLabel:'Bioluminescence explained by NOAA', alt:'A translucent jellyfish with delicate trailing tentacles in the dark ocean.' }
 };
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -37,15 +37,15 @@ function posterReady(id) {
 function updateMediaStatus() {
   const current = media[featured], video = scenes.get(featured).querySelector('video');
   motionButton.hidden = !current.video || reduce.matches;
-  if (pending) { status.textContent=`Preparing ${SPECIES[pending].name.toLowerCase()}…`; return; }
-  if (!current.poster) status.textContent='Development preview · original media pending';
-  else if (!posterImages.has(featured)) status.textContent='Portrait unavailable · choose a species below to retry';
-  else if (!current.video) status.textContent='Still portrait · cinematic video pending';
-  else if (reduce.matches) status.textContent='Still portrait · reduced motion';
-  else if (limitedConnection() && !video.getAttribute('src')) status.textContent='Still portrait · data saving';
-  else if (videoErrors.has(featured)) status.textContent='Still portrait · motion unavailable';
+  if (pending) { status.textContent=`Loading ${SPECIES[pending].title.toLowerCase()}...`; return; }
+  if (!current.poster) status.textContent='Image unavailable.';
+  else if (!posterImages.has(featured)) status.textContent='Image unavailable. Choose another animal or try again.';
+  else if (!current.video) status.textContent='Showing a still image.';
+  else if (reduce.matches) status.textContent='Motion is off to match your settings.';
+  else if (limitedConnection() && !video.getAttribute('src')) status.textContent='Showing a still image to save data.';
+  else if (videoErrors.has(featured)) status.textContent='Video could not play. Try again.';
   else status.textContent='';
-  motionButton.textContent=videoErrors.has(featured) ? 'Retry motion' : userPaused || (limitedConnection()&&!video.getAttribute('src')) ? 'Play motion' : 'Pause motion';
+  motionButton.textContent=videoErrors.has(featured) ? 'Retry video' : userPaused || (limitedConnection()&&!video.getAttribute('src')) ? 'Play video' : 'Pause video';
   motionButton.setAttribute('aria-pressed',String(userPaused));
 }
 function warm(id,explicit=false) {
@@ -70,13 +70,14 @@ function render(id,announce=true) {
   for (const key of ORDER) scenes.get(key).classList.toggle('is-active',key===id);
   $('.title .ent-line').textContent=SPECIES[id].name;
   setTextWithBreaks($('.lede'),SPECIES[id].lede);
+  $('.cta > a').textContent=SPECIES[id].cta;
   const rest=ORDER.filter(key=>key!==id);
   $$('.animal').forEach((button,i) => {
     const other=rest[i]; button.dataset.species=other;
     button.setAttribute('aria-label',`Show ${SPECIES[other].name}`);
     button.querySelectorAll('img').forEach(image=>image.classList.toggle('is-shown',image.dataset.species===other && Boolean(media[other].cutout)));
     const placeholder=button.querySelector('.cutout-placeholder');
-    placeholder.hidden=Boolean(media[other].cutout); placeholder.textContent=`0${ORDER.indexOf(other)+1}`;
+    placeholder.hidden=Boolean(media[other].cutout); placeholder.textContent=SPECIES[other].name;
     $(`.label-${i===0?'l':'r'}`).textContent=SPECIES[other].name;
   });
   $('#species-latin').textContent=SPECIES[id].latin;
@@ -87,6 +88,7 @@ function render(id,announce=true) {
     dt.textContent=term;dd.textContent=value;row.append(dt,dd);return row;
   }));
   $('#species-source').href=SPECIES[id].source;
+  $('#species-source').textContent=SPECIES[id].sourceLabel;
   $$('[data-select]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.select===id)));
   if (announce) $('#scene-announcement').textContent=`${SPECIES[id].name}. ${SPECIES[id].lede.replace('\n',' ')}`;
   syncPlayback();
@@ -132,7 +134,7 @@ const manifestPromise=fetch('assets/manifest.json').then(response=>{
   ORDER.forEach(posterReady);
   const preload=()=>{if(!limitedConnection()&&!reduce.matches&&!userPaused)ORDER.forEach(id=>warm(id));};
   if ('requestIdleCallback' in window) requestIdleCallback(preload,{timeout:4000});else setTimeout(preload,2500);
-}).catch(()=>{manifestReady=true;render(featured,false);status.textContent='Development preview · media manifest unavailable';});
+}).catch(()=>{manifestReady=true;render(featured,false);status.textContent='Some media could not load. Reload the page to try again.';});
 
 $$('.animal').forEach(button=>{
   button.addEventListener('click',()=>show(button.dataset.species));
@@ -194,7 +196,7 @@ $$('[data-gallery]').forEach(button=>button.addEventListener('click',()=>{
   $('#portrait-title').textContent=SPECIES[activeGallery].title;
   $('.portrait-description').textContent=SPECIES[activeGallery].story;
   const art=$('.portrait-art');art.replaceChildren();
-  if(media[activeGallery].poster){const image=new Image();image.src=media[activeGallery].poster;image.alt=SPECIES[activeGallery].alt;art.append(image);}else art.textContent='Development preview · original artwork pending';
+  if(media[activeGallery].poster){const image=new Image();image.src=media[activeGallery].poster;image.alt=SPECIES[activeGallery].alt;art.append(image);}else art.textContent='Image unavailable.';
   dialog.showModal();document.body.style.overflow='hidden';
 }));
 $('.dialog-close').addEventListener('click',()=>dialog.close());

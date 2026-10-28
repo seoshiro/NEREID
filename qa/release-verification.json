@@ -1,12 +1,12 @@
 {
-  "fingerprint": "5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f",
+  "fingerprint": "0d2ea1daecd20544d60271af8081ada1bc5eb213ff9a62057b37b47369079116",
   "files": [
     {
       "file": "app.js",
       "sourceMatches": true,
       "distMatches": true,
       "httpMatches": true,
-      "bytes": 15945
+      "bytes": 15949
     },
     {
       "file": "assets/favicon.svg",
@@ -90,14 +90,14 @@
       "sourceMatches": true,
       "distMatches": true,
       "httpMatches": true,
-      "bytes": 10480
+      "bytes": 9819
     },
     {
       "file": "styles.css",
       "sourceMatches": true,
       "distMatches": true,
       "httpMatches": true,
-      "bytes": 24281
+      "bytes": 24258
     }
   ],
   "range": {

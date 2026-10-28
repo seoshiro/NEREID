@@ -16,7 +16,9 @@ Open http://127.0.0.1:4173. The server binds only to loopback and supports video
 
 ## Current delivery state
 
-The original posters, transparent cutouts and three genuine Flow videos are integrated. Independent retest approved fingerprint `5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f` after the mobile keyboard-navigation and tablet Medusa fixes. See `QA.md` for verification and device limits. The Pages workflow checks syntax, original media and the exact approved build fingerprint before deploying its 14-file artifact.
+Independent review approved the copy revision with runtime fingerprint `0d2ea1daecd20544d60271af8081ada1bc5eb213ff9a62057b37b47369079116`. It removes decorative numbering, replaces vague headings with specific subjects, and gives buttons clear destinations. The original posters, transparent cutouts and three genuine Flow videos are unchanged. See `QA.md` for verification and limitations. The Pages workflow requires this exact reviewed fingerprint before deployment.
+
+One nonblocking P3 remains: widening from mobile while the open-menu button holds focus can move focus to the page body. It is recorded for a separate change; this release preserves the reviewed runtime bytes.
 
 ## Media integration
 

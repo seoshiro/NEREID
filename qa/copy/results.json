@@ -1,0 +1,234 @@
+{
+  "recordedAt": "2026-10-28T13:16:15.673Z",
+  "browser": "Installed Chrome; simulated CSS viewports; reduced motion for copy captures",
+  "results": [
+    {
+      "name": "Rewritten text fits at five widths; contextual links reach the selected profile",
+      "status": "passed",
+      "detail": [
+        {
+          "width": 320,
+          "height": 568,
+          "species": "manta",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 252.609375,
+          "ctaTop": 269.609375,
+          "ctaText": "About manta rays",
+          "source": "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "species": "orca",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 252.609375,
+          "ctaTop": 269.609375,
+          "ctaText": "About orcas",
+          "source": "https://www.fisheries.noaa.gov/species/killer-whale"
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "species": "medusa",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 252.609375,
+          "ctaTop": 269.609375,
+          "ctaText": "About jellyfish",
+          "source": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html"
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "species": "manta",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 339.93035888671875,
+          "ctaTop": 369.36785888671875,
+          "ctaText": "About manta rays",
+          "source": "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "species": "orca",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 339.94598388671875,
+          "ctaTop": 369.38348388671875,
+          "ctaText": "About orcas",
+          "source": "https://www.fisheries.noaa.gov/species/killer-whale"
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "species": "medusa",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 339.93035888671875,
+          "ctaTop": 369.36785888671875,
+          "ctaText": "About jellyfish",
+          "source": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html"
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "species": "manta",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 446.78509521484375,
+          "ctaTop": 535.3788452148438,
+          "ctaText": "About manta rays",
+          "source": "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "species": "orca",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 446.78509521484375,
+          "ctaTop": 535.3788452148438,
+          "ctaText": "About orcas",
+          "source": "https://www.fisheries.noaa.gov/species/killer-whale"
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "species": "medusa",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 446.78509521484375,
+          "ctaTop": 535.3788452148438,
+          "ctaText": "About jellyfish",
+          "source": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html"
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "species": "manta",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 419.21875,
+          "ctaTop": 507.4375,
+          "ctaText": "About manta rays",
+          "source": "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "species": "orca",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 419.21875,
+          "ctaTop": 507.4375,
+          "ctaText": "About orcas",
+          "source": "https://www.fisheries.noaa.gov/species/killer-whale"
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "species": "medusa",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 419.21875,
+          "ctaTop": 507.4375,
+          "ctaText": "About jellyfish",
+          "source": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "species": "manta",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 381.671875,
+          "ctaTop": 461.984375,
+          "ctaText": "About manta rays",
+          "source": "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "species": "orca",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 381.671875,
+          "ctaTop": 461.984375,
+          "ctaText": "About orcas",
+          "source": "https://www.fisheries.noaa.gov/species/killer-whale"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "species": "medusa",
+          "overflow": false,
+          "outside": [],
+          "ledeBottom": 381.671875,
+          "ctaTop": 461.984375,
+          "ctaText": "About jellyfish",
+          "source": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html"
+        }
+      ]
+    },
+    {
+      "name": "Gallery names include visible labels; keyboard entry and profile navigation work",
+      "status": "passed",
+      "detail": [
+        {
+          "id": "manta",
+          "label": "Manta",
+          "accessibleName": "Open manta portrait",
+          "destination": "discover"
+        },
+        {
+          "id": "orca",
+          "label": "Orca",
+          "accessibleName": "Open orca portrait",
+          "destination": "discover"
+        },
+        {
+          "id": "medusa",
+          "label": "Medusa",
+          "accessibleName": "Open Medusa jellyfish portrait",
+          "destination": "discover"
+        }
+      ]
+    },
+    {
+      "name": "Static Manta fallback matches the hydrated copy, navigation targets are preserved",
+      "status": "passed",
+      "detail": {
+        "fallback": {
+          "lede": "Giant manta rays glide through the ocean, filtering plankton from the water.",
+          "title": "Giant manta rays",
+          "story": "Giant manta rays use broad, wing-like fins to move through tropical and subtropical seas. They filter plankton from the water.",
+          "cta": "About manta rays"
+        },
+        "allAnchorDestinationsUnchanged": true
+      }
+    },
+    {
+      "name": "No numbered editorial labels or uncaught errors remain",
+      "status": "passed",
+      "detail": {
+        "labels": [
+          "Species profiles",
+          "MantaOrcaMedusa",
+          "Gallery",
+          "Manta↗",
+          "Orca↗",
+          "Medusa↗",
+          "Journal",
+          "How manta rays feed+",
+          "Orca calls and hunting+",
+          "Why some ocean animals glow+",
+          "Portrait"
+        ],
+        "errors": []
+      }
+    }
+  ]
+}

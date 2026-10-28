@@ -1,0 +1,137 @@
+{
+  "species": {
+    "manta": {
+      "name": "MANTA",
+      "title": "Manta",
+      "latin": "Mobula birostris",
+      "headline": "Giant\nmanta rays",
+      "lede": "Giant manta rays glide through the ocean,\nfiltering plankton from the water.",
+      "cta": "About manta rays",
+      "story": "Giant manta rays use broad, wing-like fins to move through tropical and subtropical seas. They filter plankton from the water.",
+      "facts": [
+        [
+          "Family",
+          "Mobulidae"
+        ],
+        [
+          "Diet",
+          "Plankton"
+        ],
+        [
+          "Range",
+          "Tropical to temperate seas"
+        ]
+      ],
+      "source": "https://www.fisheries.noaa.gov/species/giant-manta-ray",
+      "sourceLabel": "Manta ray facts from NOAA",
+      "alt": "A giant manta ray gliding through dark blue ocean water."
+    },
+    "orca": {
+      "name": "ORCA",
+      "title": "Orca",
+      "latin": "Orcinus orca",
+      "headline": "Life in\nfamily groups",
+      "lede": "Orcas use calls to communicate and echolocation to find prey.\nHunting traditions pass between generations.",
+      "cta": "About orcas",
+      "story": "Orcas are highly social dolphins. They use calls to communicate and echolocation to find prey. Family groups pass hunting behaviours between generations.",
+      "facts": [
+        [
+          "Family",
+          "Delphinidae"
+        ],
+        [
+          "Diet",
+          "Varies by population"
+        ],
+        [
+          "Range",
+          "Oceans worldwide"
+        ]
+      ],
+      "source": "https://www.fisheries.noaa.gov/species/killer-whale",
+      "sourceLabel": "Orca facts from NOAA",
+      "alt": "A single orca swimming through deep, cold blue water."
+    },
+    "medusa": {
+      "name": "MEDUSA",
+      "title": "Medusa",
+      "latin": "A study of jellyfish",
+      "headline": "How jellyfish\nmove",
+      "lede": "Jellyfish swim by pulsing their bells\nand drift with the currents.",
+      "cta": "About jellyfish",
+      "story": "Jellyfish move by pulsing their bells and drifting with ocean currents. Some species produce their own light. Medusa is an artistic portrait of a jellyfish, not a depiction of an identified species.",
+      "facts": [
+        [
+          "Form",
+          "Free-swimming medusa"
+        ],
+        [
+          "Movement",
+          "Bell pulses and currents"
+        ],
+        [
+          "Light",
+          "Bioluminescence in some species"
+        ]
+      ],
+      "source": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html",
+      "sourceLabel": "Bioluminescence explained by NOAA",
+      "alt": "A translucent jellyfish with delicate trailing tentacles in the dark ocean."
+    }
+  },
+  "description": "Manta rays, orcas and jellyfish: see them in motion and learn how they feed, move and communicate.",
+  "nav": [
+    "Species",
+    "Discover",
+    "Gallery",
+    "Journal",
+    "Explore"
+  ],
+  "sections": [
+    "Species profiles",
+    "Gallery",
+    "Journal"
+  ],
+  "gallery": {
+    "title": "Ocean portraits",
+    "intro": "Open an image to view the portrait.",
+    "captions": [
+      "Manta↗",
+      "Orca↗",
+      "Medusa↗"
+    ],
+    "buttons": [
+      "Open manta portrait",
+      "Open orca portrait",
+      "Open Medusa jellyfish portrait"
+    ]
+  },
+  "journal": {
+    "title": "Feeding, sound\nand light",
+    "notes": [
+      {
+        "title": "How manta rays feed",
+        "body": "Manta rays filter plankton from seawater. The fins beside their mouths, called cephalic fins, help guide water in.",
+        "source": "Read about manta rays at NOAA",
+        "href": "https://www.fisheries.noaa.gov/species/giant-manta-ray"
+      },
+      {
+        "title": "Orca calls and hunting",
+        "body": "Orcas use calls to communicate and echolocation to explore their surroundings. Family groups pass behaviours between generations. Different populations can have different diets and ways of hunting.",
+        "source": "Read about orcas at NOAA",
+        "href": "https://www.fisheries.noaa.gov/species/killer-whale"
+      },
+      {
+        "title": "Why some ocean animals glow",
+        "body": "Bioluminescence is light produced by a chemical reaction. Some ocean animals use it to defend themselves, find food or communicate.",
+        "source": "Read about bioluminescence at NOAA",
+        "href": "https://oceanexplorer.noaa.gov/facts/bioluminescence.html"
+      }
+    ]
+  },
+  "footer": "nereid\n\nTHE LIVING OCEAN\n\nBack to top ↑\nOriginal ocean artwork. Species information from NOAA.",
+  "dialog": {
+    "label": "Portrait",
+    "cta": "Read the profile"
+  }
+}

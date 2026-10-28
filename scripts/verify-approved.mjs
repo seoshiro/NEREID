@@ -1,7 +1,7 @@
 import {readFileSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const approved='5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f';
+const approved='0d2ea1daecd20544d60271af8081ada1bc5eb213ff9a62057b37b47369079116';
 const manifest=JSON.parse(readFileSync('release-fingerprint.json','utf8'));
 const sha256=bytes=>createHash('sha256').update(bytes).digest('hex');
 assert.equal(manifest.fingerprint,approved,'Build differs from independently approved candidate');
