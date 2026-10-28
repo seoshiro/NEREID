@@ -1,0 +1,6 @@
+import {pathToFileURL} from 'node:url';import{writeFileSync}from'node:fs';
+const{chromium}=await import(pathToFileURL(process.argv[2]).href);const browser=await chromium.launch({headless:true,channel:'chrome'});const page=await browser.newPage({viewport:{width:1280,height:820}});await page.goto('http://127.0.0.1:4173/',{waitUntil:'domcontentloaded'});
+for(const id of ['manta','orca','medusa']){
+  const data=await page.evaluate(async id=>{const v=document.querySelector(`[data-scene="${id}"] video`);v.pause();if(!v.src){v.src=`assets/video/${id}.mp4`;v.load()}if(v.readyState<2)await new Promise(r=>v.addEventListener('loadeddata',r,{once:true}));const canvas=document.createElement('canvas');canvas.width=1280;canvas.height=400;const ctx=canvas.getContext('2d');ctx.fillStyle='#04101f';ctx.fillRect(0,0,1280,400);for(const[t,x,label]of[[.05,0,'FIRST / 0.05 s'],[7.9,640,'LAST / 7.90 s']]){await new Promise(r=>{v.addEventListener('seeked',r,{once:true});v.currentTime=t});ctx.drawImage(v,x,40,640,360);ctx.fillStyle='#fff';ctx.font='16px sans-serif';ctx.fillText(id.toUpperCase()+' — '+label,x+16,26)}return canvas.toDataURL('image/png').split(',')[1]},id);
+  writeFileSync(`qa/loop-${id}.png`,Buffer.from(data,'base64'));
+}await browser.close();

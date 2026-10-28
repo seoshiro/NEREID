@@ -1,0 +1,55 @@
+{
+  "repository": "seoshiro/NEREID",
+  "commit": "eecda179f29848892eadc55d1dc7535ab8f1a2ed",
+  "verified": true,
+  "files": [
+    {
+      "file": "assets/video/manifest.json",
+      "bytes": 2095,
+      "gitBlobSha1": "5976d3f430e9202c4db2d6b8ee1524e3ddd133da",
+      "sha256": "307d55a486c503998642f44657a05fb7add73f1c6117f0d582e6270e6e3d1dab"
+    },
+    {
+      "file": "assets/video/manta.mp4",
+      "bytes": 3220169,
+      "gitBlobSha1": "d5cc35ef6ebae14eec58c1afc262f18d8237df64",
+      "sha256": "4502a1993f10775b817981385f55c514f61b8ca835cd8a1d1034e9483ba445d2"
+    },
+    {
+      "file": "assets/video/manta.webp",
+      "bytes": 91542,
+      "gitBlobSha1": "5083e6a22078d8102c822ea11160b29fad14b918",
+      "sha256": "a23ca2a6496749470f6c62ce0b5ec4ed68ff7876a52c851b40fb7411931d321e"
+    },
+    {
+      "file": "assets/video/medusa.mp4",
+      "bytes": 4717872,
+      "gitBlobSha1": "3c72f22f523533271ed917868bbe50c55cc48664",
+      "sha256": "c4de25e617f247de09ffb1b31779082cf1d9a104eca8ca763d9258c282b2c91e"
+    },
+    {
+      "file": "assets/video/medusa.webp",
+      "bytes": 122692,
+      "gitBlobSha1": "0842ae890b7be3161b6bb91255a4398585f06096",
+      "sha256": "2c91f461221fb65a41e5e14d67c44430ab9e65d2b22ff881b7a033797aea6b5f"
+    },
+    {
+      "file": "assets/video/orca.mp4",
+      "bytes": 3160294,
+      "gitBlobSha1": "b0336afee17634043bfcbe47faac5d64caf85570",
+      "sha256": "a9bd989b9676020ef9bcc916e82ab2394ca0cdb4cedf9d7e80db93d1cd0fdd7f"
+    },
+    {
+      "file": "assets/video/orca.webp",
+      "bytes": 89696,
+      "gitBlobSha1": "a3394e3a05e8b4a5987a35fe64d175f34a59771a",
+      "sha256": "3196be2815f6ff04edb98b89f901f6224a676a4c90551ca2ab26d1c2213dcf01"
+    },
+    {
+      "file": "assets/video/provenance.json",
+      "bytes": 2274,
+      "gitBlobSha1": "54e925c332ab81b856bdf89ea3a2e393c2e09d2a",
+      "sha256": "21d8b920d24e095b39277e7cedbd9406217c713009e4a28092ee131cd2192695"
+    }
+  ]
+}

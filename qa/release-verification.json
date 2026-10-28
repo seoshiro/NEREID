@@ -1,0 +1,108 @@
+{
+  "fingerprint": "5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f",
+  "files": [
+    {
+      "file": "app.js",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 15945
+    },
+    {
+      "file": "assets/favicon.svg",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 280
+    },
+    {
+      "file": "assets/images/manta-cutout.webp",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 50206
+    },
+    {
+      "file": "assets/images/medusa-cutout.webp",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 302000
+    },
+    {
+      "file": "assets/images/orca-cutout.webp",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 56684
+    },
+    {
+      "file": "assets/manifest.json",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 468
+    },
+    {
+      "file": "assets/video/manta.mp4",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 3220169
+    },
+    {
+      "file": "assets/video/manta.webp",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 91542
+    },
+    {
+      "file": "assets/video/medusa.mp4",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 4717872
+    },
+    {
+      "file": "assets/video/medusa.webp",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 122692
+    },
+    {
+      "file": "assets/video/orca.mp4",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 3160294
+    },
+    {
+      "file": "assets/video/orca.webp",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 89696
+    },
+    {
+      "file": "index.html",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 10480
+    },
+    {
+      "file": "styles.css",
+      "sourceMatches": true,
+      "distMatches": true,
+      "httpMatches": true,
+      "bytes": 24281
+    }
+  ],
+  "range": {
+    "status": 206,
+    "bytes": 1024,
+    "matchesSource": true
+  }
+}

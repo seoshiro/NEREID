@@ -1,0 +1,81 @@
+{
+  "project": "NEREID — The Living Ocean",
+  "version": 1,
+  "assets": [
+    {
+      "scene": "manta",
+      "filename": "manta.mp4",
+      "role": "background-video",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3220169,
+      "sha256": "4502a1993f10775b817981385f55c514f61b8ca835cd8a1d1034e9483ba445d2",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": 24,
+      "frames": 192,
+      "duration_seconds": 8.0,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "scene": "manta",
+      "filename": "manta.webp",
+      "role": "video-poster",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 91542,
+      "sha256": "a23ca2a6496749470f6c62ce0b5ec4ed68ff7876a52c851b40fb7411931d321e"
+    },
+    {
+      "scene": "orca",
+      "filename": "orca.mp4",
+      "role": "background-video",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 3160294,
+      "sha256": "a9bd989b9676020ef9bcc916e82ab2394ca0cdb4cedf9d7e80db93d1cd0fdd7f",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": 24,
+      "frames": 192,
+      "duration_seconds": 8.0,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "scene": "orca",
+      "filename": "orca.webp",
+      "role": "video-poster",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 89696,
+      "sha256": "3196be2815f6ff04edb98b89f901f6224a676a4c90551ca2ab26d1c2213dcf01"
+    },
+    {
+      "scene": "medusa",
+      "filename": "medusa.mp4",
+      "role": "background-video",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4717872,
+      "sha256": "c4de25e617f247de09ffb1b31779082cf1d9a104eca8ca763d9258c282b2c91e",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": 24,
+      "frames": 192,
+      "duration_seconds": 8.0,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "scene": "medusa",
+      "filename": "medusa.webp",
+      "role": "video-poster",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 122692,
+      "sha256": "2c91f461221fb65a41e5e14d67c44430ab9e65d2b22ff881b7a033797aea6b5f"
+    }
+  ]
+}

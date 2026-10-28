@@ -1,0 +1,59 @@
+{
+  "project": "NEREID — The Living Ocean",
+  "created": "2026-10-28",
+  "media_type": "AI-generated image-to-video from original project images",
+  "provider": "Google Flow",
+  "observed_model_label": "Omni 1.1 Flash",
+  "model_note": "Label observed in the generation interface, not an independently verified backend identifier.",
+  "processing": {
+    "output_dimensions": [
+      1920,
+      1080
+    ],
+    "method": "Local Lanczos scaling of accepted 1280×720 Flow video; H.264 CRF17 encoding, no audio, faststart.",
+    "quality_note": "1080p is an upscale, not native 1080p detail. Local scaling was selected over Flow enhanced exports to preserve clean water texture.",
+    "timing": "All 192 source frames and timestamps retained at 24 fps, duration 8.0 seconds. No added crossfade, reverse frames, or black fade.",
+    "poster": "WebP encoded from the first frame of each final video."
+  },
+  "scenes": [
+    {
+      "scene": "manta",
+      "reference_image": "manta-master.png",
+      "reference_sha256": "8bb3f4736ef9974818fa061f42b03683b2294449b4c4e2cf1ca7f57a498aa272",
+      "source_video_sha256": "de5d27e4adb3c388c1a84fc2768d51d6452a7892b576d84e4ab9f3d1533d5ccb",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "source_duration_seconds": 8,
+      "published_video": "manta.mp4",
+      "published_poster": "manta.webp"
+    },
+    {
+      "scene": "orca",
+      "reference_image": "orca-master.png",
+      "reference_sha256": "8ac1dffff74871cecbc35ce38c8dc100a36f9c1e766601a61562ef227f5f5796",
+      "source_video_sha256": "ba3a87da20e7851f7ad7f056de561dc96c5fd9c849161bac24521862827829c9",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "source_duration_seconds": 8,
+      "published_video": "orca.mp4",
+      "published_poster": "orca.webp"
+    },
+    {
+      "scene": "medusa",
+      "reference_image": "medusa-master.png",
+      "reference_sha256": "d1ea71bc4ffe8d533427f7682749d53e93b21a3ebd9c5d015bf0b8e9969c34da",
+      "source_video_sha256": "aa8cf4aabba130887a2cd8601766ef3416c084e9127d129c67fa7e13ee1dfca2",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "source_duration_seconds": 8,
+      "published_video": "medusa.mp4",
+      "published_poster": "medusa.webp"
+    }
+  ]
+}

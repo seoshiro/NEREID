@@ -1,0 +1,5 @@
+{
+  "manta": { "poster": "assets/video/manta.webp", "cutout": "assets/images/manta-cutout.webp", "video": "assets/video/manta.mp4", "position": "50% 50%" },
+  "orca": { "poster": "assets/video/orca.webp", "cutout": "assets/images/orca-cutout.webp", "video": "assets/video/orca.mp4", "position": "50% 50%" },
+  "medusa": { "poster": "assets/video/medusa.webp", "cutout": "assets/images/medusa-cutout.webp", "video": "assets/video/medusa.mp4", "position": "50% 50%" }
+}

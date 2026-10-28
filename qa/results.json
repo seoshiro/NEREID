@@ -1,0 +1,606 @@
+{
+  "date": "2026-10-28T11:26:02.290Z",
+  "results": [
+    {
+      "name": "Real videos: metadata, mutually exclusive playback and three complete cycles",
+      "status": "passed",
+      "detail": [
+        {
+          "scene": "manta",
+          "width": 1920,
+          "height": 1080,
+          "duration": 8,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        {
+          "scene": "orca",
+          "width": 1920,
+          "height": 1080,
+          "duration": 8,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        {
+          "scene": "medusa",
+          "width": 1920,
+          "height": 1080,
+          "duration": 8,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        }
+      ]
+    },
+    {
+      "name": "Responsive geometry and media at all eight requested sizes",
+      "status": "passed",
+      "detail": [
+        {
+          "width": 2560,
+          "height": 1440,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 306.828125,
+            "bottom": 494.828125,
+            "left": 988.59375,
+            "right": 1542.90625
+          },
+          "cta": {
+            "top": 739.1875,
+            "bottom": 820.90625,
+            "left": 1130.796875,
+            "right": 1398.234375
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 2560,
+          "height": 1440,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 306.828125,
+            "bottom": 494.828125,
+            "left": 1048.359375,
+            "right": 1483.15625
+          },
+          "cta": {
+            "top": 739.1875,
+            "bottom": 820.90625,
+            "left": 1130.796875,
+            "right": 1398.234375
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 2560,
+          "height": 1440,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 306.828125,
+            "bottom": 494.828125,
+            "left": 925.640625,
+            "right": 1605.875
+          },
+          "cta": {
+            "top": 739.1875,
+            "bottom": 820.90625,
+            "left": 1130.796875,
+            "right": 1398.234375
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 192.390625,
+            "bottom": 309.390625,
+            "left": 537.875,
+            "right": 884.328125
+          },
+          "cta": {
+            "top": 461.984375,
+            "bottom": 513.046875,
+            "left": 626.75,
+            "right": 793.890625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 192.390625,
+            "bottom": 309.390625,
+            "left": 575.21875,
+            "right": 846.96875
+          },
+          "cta": {
+            "top": 461.984375,
+            "bottom": 513.046875,
+            "left": 626.75,
+            "right": 793.890625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 192.390625,
+            "bottom": 309.390625,
+            "left": 498.53125,
+            "right": 923.671875
+          },
+          "cta": {
+            "top": 461.984375,
+            "bottom": 513.046875,
+            "left": 626.75,
+            "right": 793.890625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1366,
+          "height": 768,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 177.953125,
+            "bottom": 286.953125,
+            "left": 513.5625,
+            "right": 835.875
+          },
+          "cta": {
+            "top": 429.828125,
+            "bottom": 477.34375,
+            "left": 596.234375,
+            "right": 751.75
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1366,
+          "height": 768,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 177.953125,
+            "bottom": 286.953125,
+            "left": 548.3125,
+            "right": 801.125
+          },
+          "cta": {
+            "top": 429.828125,
+            "bottom": 477.34375,
+            "left": 596.234375,
+            "right": 751.75
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1366,
+          "height": 768,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 177.953125,
+            "bottom": 286.953125,
+            "left": 476.953125,
+            "right": 872.484375
+          },
+          "cta": {
+            "top": 429.828125,
+            "bottom": 477.34375,
+            "left": 596.234375,
+            "right": 751.75
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 209.796875,
+            "bottom": 339.796875,
+            "left": 322.5625,
+            "right": 703.109375
+          },
+          "cta": {
+            "top": 507.4375,
+            "bottom": 563.53125,
+            "left": 420.203125,
+            "right": 603.796875
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 209.796875,
+            "bottom": 339.796875,
+            "left": 363.59375,
+            "right": 662.078125
+          },
+          "cta": {
+            "top": 507.4375,
+            "bottom": 563.53125,
+            "left": 420.203125,
+            "right": 603.796875
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 209.796875,
+            "bottom": 339.796875,
+            "left": 279.34375,
+            "right": 746.328125
+          },
+          "cta": {
+            "top": 507.4375,
+            "bottom": 563.53125,
+            "left": 420.203125,
+            "right": 603.796875
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 236.6288299560547,
+            "bottom": 366.62884521484375,
+            "left": 193.84375,
+            "right": 575.859375
+          },
+          "cta": {
+            "top": 535.3788452148438,
+            "bottom": 591.6913452148438,
+            "left": 291.84375,
+            "right": 476.15625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 236.6288299560547,
+            "bottom": 366.62884521484375,
+            "left": 235.03125,
+            "right": 534.671875
+          },
+          "cta": {
+            "top": 535.3788452148438,
+            "bottom": 591.6913452148438,
+            "left": 291.84375,
+            "right": 476.15625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 236.6288299560547,
+            "bottom": 366.62884521484375,
+            "left": 150.453125,
+            "right": 619.25
+          },
+          "cta": {
+            "top": 535.3788452148438,
+            "bottom": 591.6913452148438,
+            "left": 291.84375,
+            "right": 476.15625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 153.3209991455078,
+            "bottom": 238.3209991455078,
+            "left": 69.8125,
+            "right": 322
+          },
+          "cta": {
+            "top": 369.38348388671875,
+            "bottom": 424.57098388671875,
+            "left": 107.59375,
+            "right": 282.390625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 153.3209991455078,
+            "bottom": 238.3209991455078,
+            "left": 96.96875,
+            "right": 294.84375
+          },
+          "cta": {
+            "top": 369.36785888671875,
+            "bottom": 424.55535888671875,
+            "left": 107.59375,
+            "right": 282.390625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 153.3209991455078,
+            "bottom": 238.3209991455078,
+            "left": 41.21875,
+            "right": 350.59375
+          },
+          "cta": {
+            "top": 369.36785888671875,
+            "bottom": 424.55535888671875,
+            "left": 107.59375,
+            "right": 282.390625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 375,
+          "height": 812,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 143.44100952148438,
+            "bottom": 225.44100952148438,
+            "left": 66.984375,
+            "right": 309.828125
+          },
+          "cta": {
+            "top": 356.0972595214844,
+            "bottom": 411.2847595214844,
+            "left": 100.09375,
+            "right": 274.890625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 375,
+          "height": 812,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 143.44100952148438,
+            "bottom": 225.44100952148438,
+            "left": 93.140625,
+            "right": 283.6875
+          },
+          "cta": {
+            "top": 356.0816345214844,
+            "bottom": 411.2691345214844,
+            "left": 100.09375,
+            "right": 274.890625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 375,
+          "height": 812,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 143.44100952148438,
+            "bottom": 225.44100952148438,
+            "left": 39.453125,
+            "right": 337.359375
+          },
+          "cta": {
+            "top": 356.0816345214844,
+            "bottom": 411.2691345214844,
+            "left": 100.09375,
+            "right": 274.890625
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "scene": "manta",
+          "overflow": false,
+          "title": {
+            "top": 100.484375,
+            "bottom": 170.484375,
+            "left": 56.90625,
+            "right": 264.78125
+          },
+          "cta": {
+            "top": 269.609375,
+            "bottom": 320.609375,
+            "left": 79.25,
+            "right": 240.75
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "scene": "orca",
+          "overflow": false,
+          "title": {
+            "top": 100.484375,
+            "bottom": 170.484375,
+            "left": 79.28125,
+            "right": 242.40625
+          },
+          "cta": {
+            "top": 269.609375,
+            "bottom": 320.609375,
+            "left": 79.25,
+            "right": 240.75
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "scene": "medusa",
+          "overflow": false,
+          "title": {
+            "top": 100.484375,
+            "bottom": 170.484375,
+            "left": 33.34375,
+            "right": 288.34375
+          },
+          "cta": {
+            "top": 269.609375,
+            "bottom": 320.609375,
+            "left": 79.25,
+            "right": 240.75
+          },
+          "scrollX": 0,
+          "scrollY": 0,
+          "images": true
+        }
+      ]
+    },
+    {
+      "name": "Keyboard menu, gallery focus and meaningful navigation",
+      "status": "passed"
+    },
+    {
+      "name": "Pause persistence, off-screen suspension and resumed playback",
+      "status": "passed"
+    },
+    {
+      "name": "Continuous native looping",
+      "status": "passed",
+      "detail": [
+        {
+          "scene": "manta",
+          "observedWrap": true
+        },
+        {
+          "scene": "orca",
+          "observedWrap": true
+        },
+        {
+          "scene": "medusa",
+          "observedWrap": true
+        }
+      ]
+    },
+    {
+      "name": "Final screenshots",
+      "status": "passed"
+    },
+    {
+      "name": "Reduced motion: no video fetch or entrance, matching poster after switch",
+      "status": "passed"
+    },
+    {
+      "name": "Save-data: no automatic clips, explicit motion works",
+      "status": "passed"
+    },
+    {
+      "name": "Video failure retains poster; retry recovers",
+      "status": "passed"
+    },
+    {
+      "name": "Rejected autoplay offers retry without losing scene",
+      "status": "passed"
+    },
+    {
+      "name": "Poster failure preserves old selection; subsequent retry recovers",
+      "status": "passed"
+    },
+    {
+      "name": "Delayed poster race: last selection wins",
+      "status": "passed"
+    },
+    {
+      "name": "No uncaught page errors in normal journeys",
+      "status": "passed"
+    }
+  ]
+}

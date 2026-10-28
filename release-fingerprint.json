@@ -1,0 +1,76 @@
+{
+  "fingerprint": "5aac6a75755f9f265574872e60c5fa3d4b913fc42ae027fa24904a80a8b55a8f",
+  "algorithm": "SHA256 of sorted path NUL file-SHA256 LF records",
+  "files": [
+    {
+      "file": "app.js",
+      "bytes": 15945,
+      "sha256": "a9ee7202503f7fe4518b374c8b64acb8313274d0815f4e871a1d69a84e8d2228"
+    },
+    {
+      "file": "assets/favicon.svg",
+      "bytes": 280,
+      "sha256": "60b460c93445b2266d09d345306b50e978bfa25ca2ce2c21d8821d738a663f81"
+    },
+    {
+      "file": "assets/images/manta-cutout.webp",
+      "bytes": 50206,
+      "sha256": "e416b4b596bef76c7d5df7f443b389a688b1945b0031a3c8ab854db8132f7c85"
+    },
+    {
+      "file": "assets/images/medusa-cutout.webp",
+      "bytes": 302000,
+      "sha256": "9e792971764359dcdba9ffb59a02b934d17355a6864191a1d96dffb93cec0532"
+    },
+    {
+      "file": "assets/images/orca-cutout.webp",
+      "bytes": 56684,
+      "sha256": "8677ad474cacd87bbbbba3e063f8b7d1231c9dffb891bed63e6f8c13d32401f6"
+    },
+    {
+      "file": "assets/manifest.json",
+      "bytes": 468,
+      "sha256": "ebd0791d25f8b1a3a8b2218f482e8ca0e5e80ff5b8c41eef1289bdae5d16206b"
+    },
+    {
+      "file": "assets/video/manta.mp4",
+      "bytes": 3220169,
+      "sha256": "4502a1993f10775b817981385f55c514f61b8ca835cd8a1d1034e9483ba445d2"
+    },
+    {
+      "file": "assets/video/manta.webp",
+      "bytes": 91542,
+      "sha256": "a23ca2a6496749470f6c62ce0b5ec4ed68ff7876a52c851b40fb7411931d321e"
+    },
+    {
+      "file": "assets/video/medusa.mp4",
+      "bytes": 4717872,
+      "sha256": "c4de25e617f247de09ffb1b31779082cf1d9a104eca8ca763d9258c282b2c91e"
+    },
+    {
+      "file": "assets/video/medusa.webp",
+      "bytes": 122692,
+      "sha256": "2c91f461221fb65a41e5e14d67c44430ab9e65d2b22ff881b7a033797aea6b5f"
+    },
+    {
+      "file": "assets/video/orca.mp4",
+      "bytes": 3160294,
+      "sha256": "a9bd989b9676020ef9bcc916e82ab2394ca0cdb4cedf9d7e80db93d1cd0fdd7f"
+    },
+    {
+      "file": "assets/video/orca.webp",
+      "bytes": 89696,
+      "sha256": "3196be2815f6ff04edb98b89f901f6224a676a4c90551ca2ab26d1c2213dcf01"
+    },
+    {
+      "file": "index.html",
+      "bytes": 10480,
+      "sha256": "61221304d3576bd7e0da9b6fecd969542e3ad259368e13a07f5e0d914c4378e2"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 24281,
+      "sha256": "092bdb5e40fbbaef34115c72e11c3e21c711ca93a09819298727f9f4f54b0272"
+    }
+  ]
+}

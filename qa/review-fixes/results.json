@@ -1,0 +1,109 @@
+{
+  "recordedAt": "2026-10-28T11:28:22.984Z",
+  "browser": "Installed Chrome, simulated CSS viewports",
+  "results": [
+    {
+      "name": "390x844 disclosure: Enter/Space, all five links, reverse Tab, Escape, close and destination focus",
+      "status": "passed",
+      "detail": {
+        "activationKeys": [
+          "Enter",
+          "Space"
+        ],
+        "forwardOrder": [
+          "Species",
+          "Discover",
+          "Gallery",
+          "Journal",
+          "Explore",
+          "Species",
+          "Discover",
+          "Gallery",
+          "Journal",
+          "Explore"
+        ],
+        "escapeFocus": "burger",
+        "navigationFocus": [
+          "species",
+          "gallery"
+        ],
+        "tabExit": "animal-l",
+        "outsideClickFocus": "motion-control"
+      }
+    },
+    {
+      "name": "Navigation breakpoint changes preserve a visible, usable focus target",
+      "status": "passed",
+      "detail": {
+        "widthBreakpoint": true,
+        "heightBreakpoint": true,
+        "hiddenFocusedElements": 0
+      }
+    },
+    {
+      "name": "Tablet Medusa: poster, complete clip samples, protected description and real loop",
+      "status": "passed",
+      "detail": [
+        {
+          "width": 1024,
+          "height": 768,
+          "gradient": "linear-gradient(rgb(4, 16, 31), rgba(4, 16, 31, 0.74) 153px, rgba(0, 0, 0, 0) 272px)",
+          "sceneTop": 280.5,
+          "descriptionTop": 368.21875,
+          "descriptionBottom": 419.21875,
+          "minScrimAlpha": 0.7642687908496731,
+          "conservativeContrast": 8.524915032807348,
+          "scrollY": 0,
+          "overflow": false,
+          "posterAndFrameSamples": [
+            "POSTER",
+            "0.05 s",
+            "1.00 s",
+            "2.00 s",
+            "3.30 s",
+            "4.00 s",
+            "5.00 s",
+            "6.00 s",
+            "7.95 s"
+          ],
+          "loop": {
+            "maxTime": 7.991203,
+            "wrapTo": 0.000121
+          }
+        },
+        {
+          "width": 768,
+          "height": 1024,
+          "gradient": "linear-gradient(rgb(4, 16, 31), rgba(4, 16, 31, 0.74) 153.6px, rgba(0, 0, 0, 0) 273.067px)",
+          "sceneTop": 307.53125,
+          "descriptionTop": 395.59759521484375,
+          "descriptionBottom": 446.78509521484375,
+          "minScrimAlpha": 0.7642838557561239,
+          "conservativeContrast": 8.525385347341249,
+          "scrollY": 0,
+          "overflow": false,
+          "posterAndFrameSamples": [
+            "POSTER",
+            "0.05 s",
+            "1.00 s",
+            "2.00 s",
+            "3.30 s",
+            "4.00 s",
+            "5.00 s",
+            "6.00 s",
+            "7.95 s"
+          ],
+          "loop": {
+            "maxTime": 7.961497,
+            "wrapTo": 0.000125
+          }
+        }
+      ]
+    },
+    {
+      "name": "No uncaught browser errors during the review regressions",
+      "status": "passed",
+      "detail": []
+    }
+  ]
+}

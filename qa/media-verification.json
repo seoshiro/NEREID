@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "name": "manta.mp4",
+      "sha256": "4502a1993f10775b817981385f55c514f61b8ca835cd8a1d1034e9483ba445d2",
+      "verified": true
+    },
+    {
+      "name": "manta.webp",
+      "sha256": "a23ca2a6496749470f6c62ce0b5ec4ed68ff7876a52c851b40fb7411931d321e",
+      "verified": true
+    },
+    {
+      "name": "orca.mp4",
+      "sha256": "a9bd989b9676020ef9bcc916e82ab2394ca0cdb4cedf9d7e80db93d1cd0fdd7f",
+      "verified": true
+    },
+    {
+      "name": "orca.webp",
+      "sha256": "3196be2815f6ff04edb98b89f901f6224a676a4c90551ca2ab26d1c2213dcf01",
+      "verified": true
+    },
+    {
+      "name": "medusa.mp4",
+      "sha256": "c4de25e617f247de09ffb1b31779082cf1d9a104eca8ca763d9258c282b2c91e",
+      "verified": true
+    },
+    {
+      "name": "medusa.webp",
+      "sha256": "2c91f461221fb65a41e5e14d67c44430ab9e65d2b22ff881b7a033797aea6b5f",
+      "verified": true
+    }
+  ],
+  "videos": [
+    {
+      "scene": "manta",
+      "faststart": true,
+      "tracks": [
+        "vide"
+      ],
+      "h264": true
+    },
+    {
+      "scene": "orca",
+      "faststart": true,
+      "tracks": [
+        "vide"
+      ],
+      "h264": true
+    },
+    {
+      "scene": "medusa",
+      "faststart": true,
+      "tracks": [
+        "vide"
+      ],
+      "h264": true
+    }
+  ],
+  "alpha": [
+    {
+      "scene": "manta",
+      "width": 768,
+      "height": 432,
+      "fullyTransparentPixels": 261476,
+      "partialAlphaPixels": 68982,
+      "opaquePixels": 1318,
+      "transparentCorners": true
+    },
+    {
+      "scene": "orca",
+      "width": 768,
+      "height": 432,
+      "fullyTransparentPixels": 222251,
+      "partialAlphaPixels": 108274,
+      "opaquePixels": 1251,
+      "transparentCorners": true
+    },
+    {
+      "scene": "medusa",
+      "width": 768,
+      "height": 768,
+      "fullyTransparentPixels": 288111,
+      "partialAlphaPixels": 301362,
+      "opaquePixels": 351,
+      "transparentCorners": true
+    }
+  ]
+}

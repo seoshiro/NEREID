@@ -1,0 +1,61 @@
+{
+  "repository": "seoshiro/NEREID",
+  "commit": "2bd240d5dec3d3c6b0d7676fc47f4e2c01c18bbc",
+  "verified": true,
+  "files": [
+    {
+      "file": "assets/images/manta-cutout.png",
+      "bytes": 188673,
+      "gitBlobSha1": "8511a81d78b58a6902fb0c0881a250ad1061ae34",
+      "sha256": "bd3d912d4148fb7f2a6e1820aec699c9ccf66f2636256ac6612fcff5ff15ba47"
+    },
+    {
+      "file": "assets/images/manta-cutout.webp",
+      "bytes": 50206,
+      "gitBlobSha1": "4c02138f7cc3d031a6c67f99131c389310c7ccb4",
+      "sha256": "e416b4b596bef76c7d5df7f443b389a688b1945b0031a3c8ab854db8132f7c85"
+    },
+    {
+      "file": "assets/images/manta-poster.webp",
+      "bytes": 89688,
+      "gitBlobSha1": "1b106c043b5497c4047de161685fd9896827a4e5",
+      "sha256": "7ab6cafbabfff2e46693e286e4ecb04be6996fba0ff3fa6faa667606f682197a"
+    },
+    {
+      "file": "assets/images/medusa-cutout.png",
+      "bytes": 834846,
+      "gitBlobSha1": "939d4777686ecc188871bf1cf2d0f2089fb0c9b8",
+      "sha256": "8cdb8fdc049c609d809efe00768323781541ca72181802ca9f12ee4b7c4ca420"
+    },
+    {
+      "file": "assets/images/medusa-cutout.webp",
+      "bytes": 302000,
+      "gitBlobSha1": "cd2f86b14b4c9ab2913b3b317b592622ade8d86b",
+      "sha256": "9e792971764359dcdba9ffb59a02b934d17355a6864191a1d96dffb93cec0532"
+    },
+    {
+      "file": "assets/images/medusa-poster.webp",
+      "bytes": 122132,
+      "gitBlobSha1": "8abf9c43fdb0b63b1630ff648366add377cdb5e9",
+      "sha256": "12cc4cb350f1b87d058ea884527eda60271f50efce1cbc6ad82bbb954c570355"
+    },
+    {
+      "file": "assets/images/orca-cutout.png",
+      "bytes": 250862,
+      "gitBlobSha1": "e12649866f1ef775c5ba81e1ae8d26f95f334b49",
+      "sha256": "f879ac26cc286c8d55e17394d494bb53952d08c972a98de7f131980e223232da"
+    },
+    {
+      "file": "assets/images/orca-cutout.webp",
+      "bytes": 56684,
+      "gitBlobSha1": "676237c6c215f8777138652a09babebae2573a8f",
+      "sha256": "8677ad474cacd87bbbbba3e063f8b7d1231c9dffb891bed63e6f8c13d32401f6"
+    },
+    {
+      "file": "assets/images/orca-poster.webp",
+      "bytes": 84146,
+      "gitBlobSha1": "962b29d44cb82d1348ed726a2741145266dab7ca",
+      "sha256": "04fcb354aad4fac352e778694d3557b02afea92ac1ceeace79a324918240d01c"
+    }
+  ]
+}
